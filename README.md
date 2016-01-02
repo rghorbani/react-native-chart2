@@ -1,5 +1,5 @@
-# react-native-chart
-react-native-chart is a simple module for adding line charts, area charts, or bar charts to your React Native app.
+# react-native-chart2
+react-native-chart2 is a simple module for adding line charts, area charts, or bar charts to your React Native app.
 
 ## Features
 1. Define chart components in Javascript file and see rendered charts using Core Graphics and CALayer
@@ -9,9 +9,9 @@ react-native-chart is a simple module for adding line charts, area charts, or ba
 4. Show animation when populating the chart
 
 ## Getting Started
-1. `npm install react-native-chart --save`
+1. `npm install react-native-chart2 --save`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-3. Go to `node_modules` ➜ `react-native-chart` and add `RNChart.xcodeproj`
+3. Go to `node_modules` ➜ `react-native-chart2` and add `RNChart.xcodeproj`
 4. In XCode, in the project navigator, select your project. Add `libRNChart.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 5. Click `RNChart.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../react-native/React` and `$(SRCROOT)/../../React` - mark both as `recursive`.
 5. Run your project (`Cmd+R`)
@@ -19,7 +19,7 @@ react-native-chart is a simple module for adding line charts, area charts, or ba
 ## Usage
 ```javascript
 var React = require('react-native');
-var RNChart = require('react-native-chart');
+var RNChart = require('react-native-chart2');
 
 var {
     StyleSheet, View, Component,
@@ -63,9 +63,8 @@ class SimpleChart extends Component {
             <View style={styles.container}>
                 <RNChart style={styles.chart}
                     chartData={chartData}
-                    verticalGridStep="5"
-                    xLabels={xLabels}>
-                </RNChart>
+                    verticalGridStep={5}
+                    xLabels={xLabels}/>
             </View>
         );
     }
@@ -111,6 +110,3 @@ All properties are optional otherwise noted
 - Multi Line Chart
 - Scatter/Bubble chart
 - Pie chart
-
-## Support
-Email hyun@onefold.io

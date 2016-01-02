@@ -1,14 +1,14 @@
 {
-  "name": "react-native-chart",
-  "version": "0.0.4",
+  "name": "react-native-chart2",
+  "version": "0.1.0",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/onefold/react-native-chart.git"
+    "type": "git",
+    "url": "https://github.com/rghorbani/react-native-chart2.git"
   },
-  "main": "Chart.ios.js",
-  "author": "Hyun Cho <hyun@onefold.io> (http://onefold.io)",
+  "main": "index.ios.js",
+  "author": "Reza Ghorbani <r.ghorbani.f@gmail.com> (http://rghorbani.ir)",
   "peerDependencies": {
-    "react-native": "^0.4.0"
+    "react-native": ">=0.15.0"
   },
   "keywords": [
     "react-native",
@@ -17,6 +17,8 @@
     "ios",
     "native",
     "chart",
-    "graph"
+    "graph",
+    "barChart",
+    "lineChart"
   ]
 }
