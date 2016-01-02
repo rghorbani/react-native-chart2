@@ -1,15 +1,21 @@
 {
   "name": "react-native-chart2",
   "version": "0.1.0",
+  "description": "react-native-chart2 is a simple module for adding line charts, area charts, or bar charts to your React Native app.",
   "repository": {
     "type": "git",
     "url": "https://github.com/rghorbani/react-native-chart2.git"
   },
   "main": "index.ios.js",
-  "author": "Reza Ghorbani <r.ghorbani.f@gmail.com> (http://rghorbani.ir)",
   "peerDependencies": {
     "react-native": ">=0.15.0"
   },
+  "author": "Reza Ghorbani <r.ghorbani.f@gmail.com> (http://rghorbani.ir)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rghorbani/react-native-chart2/issues"
+  },
+  "homepage": "https://github.com/rghorbani/react-native-chart2#readme",
   "keywords": [
     "react-native",
     "react",
